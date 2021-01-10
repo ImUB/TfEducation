@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFFFF">
+
+
+    <Button
+        android:id="@+id/Open"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/sidebutton"
+        tools:ignore="RtlHardcoded" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer">
+
+        <LinearLayout
+            android:id="@+id/ContentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/activity_intro" android:id="@+id/intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"/>
+
+            <include layout="@layout/activity_menu" android:id="@+id/menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"/>
+
+            <include layout="@layout/activity_classification" android:id="@+id/classfication"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="0px"/>
+
+            <include layout="@layout/activity_clustering" android:id="@+id/clustering"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="0px"/>
+
+            <include layout="@layout/activity_recommend" android:id="@+id/recommend"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="0px"/>
+
+            <include layout="@layout/activity_remind" android:id="@+id/remind"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="0px"/>
+
+            <include layout="@layout/activity_reduction" android:id="@+id/reduction"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="0px"/>
+
+            <include layout="@layout/activity_main" android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <include layout="@layout/activity_usesfiledform" android:id="@+id/usesfiledform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"/>
+
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/SideMenu"
+            android:layout_width="300sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#3d3838">
+
+            <LinearLayout
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="MENU"
+                    android:textSize="40sp"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/p_information"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="진행정보"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:background="#929292"
+                    android:layout_marginTop="20px"
+                    android:gravity="start"
+                    tools:ignore="HardcodedText,PxUsage" />
+                <include layout="@layout/activity_progress" android:id="@+id/progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <Button
+                    android:id="@+id/btn_Contents"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="목차"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:background="#929292"
+                    android:layout_marginTop="20px"
+                    android:gravity="start"
+                    tools:ignore="HardcodedText, PxUsage" />
+                <include layout="@layout/activity_contents" android:id="@+id/contents"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <Button
+                    android:id="@+id/serch_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="단어 찾기"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:background="#929292"
+                    android:layout_marginTop="20px"
+                    android:gravity="start"
+                    tools:ignore="HardcodedText, PxUsage" />
+                <include layout="@layout/activity_serch" android:id="@+id/serch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="개발자 정보"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:background="#929292"
+                    android:layout_marginTop="20px"
+                    android:gravity="start"
+                    tools:ignore="HardcodedText, PxUsage" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="설정"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:background="#929292"
+                    android:layout_marginTop="20px"
+                    android:gravity="start"
+                    tools:ignore="HardcodedText, PxUsage" />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

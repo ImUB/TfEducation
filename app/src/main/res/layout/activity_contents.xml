@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/ToIntro"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="시작하기에 앞서..."
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <Button
+        android:id="@+id/ToMenu"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="활용분야"
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <Button
+        android:id="@+id/ToClassfication"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="클래스분류"
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <Button
+        android:id="@+id/ToClustering"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="클러스터링"
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <Button
+        android:id="@+id/ToRecomend"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="추 천"
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <Button
+        android:id="@+id/ToRemind"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="회 귀"
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <Button
+        android:id="@+id/ToReduction"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="차원 축소"
+        tools:ignore="HardcodedText,PxUsage" />
+</LinearLayout>

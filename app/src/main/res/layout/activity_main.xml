@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/mybtn"
+        android:text="예제의 진행상황과 코드"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_clustering"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="코드의 단계별 분석"
+        android:textSize="30sp"
+        android:background="@drawable/mybtn"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_recommend"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="함수의 관계도"
+        android:textSize="30sp"
+        android:background="@drawable/mybtn"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_remind"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="49dp"
+        android:text="각 함수의 역할"
+        android:textSize="30sp"
+        android:background="@drawable/mybtn"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

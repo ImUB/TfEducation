@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 클래스분류 진행도"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:max="100"
+        android:progress="0"
+        android:secondaryProgress="20"
+        tools:ignore="PxUsage" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. 클러스터링 진행도"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:secondaryProgress="20"
+        tools:ignore="PxUsage"  />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. 추천 진행도"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:secondaryProgress="20"
+        tools:ignore="PxUsage"  />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. 회귀 진행도"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:secondaryProgress="20"
+        tools:ignore="PxUsage"  />
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. 차원축소 진행도"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:max="100"
+        android:progress="0"
+        android:secondaryProgress="20"
+        tools:ignore="PxUsage"  />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clustering"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"/>
+    <ScrollView
+        android:id="@+id/s_clus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="@string/clustering_ex"
+                android:textSize="18sp"
+                android:layout_marginTop="38px"
+                android:layout_marginStart="9px"
+                tools:ignore="PxUsage,RtlCompat"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
